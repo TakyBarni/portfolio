@@ -331,3 +331,23 @@ img{
 
 
 width: 310px; justify-self: end; border-radius: 20px; border: 5px solid white;box-shadow: 0 8px 20px rgba(0,0,0,0.3); 
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+  }
+
+  table tr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  table td {
+    width: 100%;
+    padding-left: 0 !important;
+  }
+
+  table img {
+    width: 100%;
+    height: auto;
+  }
+}
