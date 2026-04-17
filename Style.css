@@ -333,4 +333,19 @@ img{
 }
 
 
-   
+ /* ===== MOBILON SZÖVEG KÖZÉPRE ===== */
+@media (max-width: 768px){
+
+  table td {
+    text-align: center;
+  }
+
+  table h2 {
+    text-align: center;
+  }
+
+  table p {
+    text-align: center;
+  }
+
+}  
