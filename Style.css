@@ -324,35 +324,15 @@ img{
 
 /* vissza gomb */
 .vissza-gomb{
-  position:relative;
+  position:absolute;
+  top:15px;
+  left:20px;
   display:inline-block;
-  margin:10px;
+  margin:0;
+  z-index:20;
 }
 
 
-
-@media (max-width: 768px) {
-  table,
-  table tbody,
-  table tr,
-  table td {
-    display: block;
-    width: 100%;
-  }
-
-  table td {
-    padding-left: 0 !important;
-    box-sizing: border-box;
-  }
-
-  table td:first-child {
-    margin-bottom: 15px;
-  }
-
-  table img {
-    display: block;
-    width: 100%;
-    max-width: 300px;
     height: auto;
     margin: 0 auto;
   }
