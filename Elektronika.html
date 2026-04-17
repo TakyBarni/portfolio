@@ -6,44 +6,30 @@
   <title>Elektronikai munkáim az évek során.</title>
   <link rel="stylesheet" href="Style.css">
 <style>
-    .responsive-section {
-      width: 100%;
-      margin-top: 40px;
-      border-collapse: collapse;
-    }
-
-    .responsive-section img {
-      width: 300px;
-      max-width: 100%;
-      height: auto;
-      border-radius: 16px;
-      display: block;
-    }
-
-    .responsive-section .text-cell {
-      padding-left: 30px;
-      font-size: 18px;
-      vertical-align: top;
-    }
-
     @media (max-width: 768px) {
-      .responsive-section,
-      .responsive-section tr,
-      .responsive-section td {
+      table.mobil-kep-szoveg,
+      table.mobil-kep-szoveg tbody,
+      table.mobil-kep-szoveg tr,
+      table.mobil-kep-szoveg td {
         display: block;
         width: 100%;
       }
 
-      .responsive-section td {
+      table.mobil-kep-szoveg td {
         padding-left: 0 !important;
       }
 
-      .responsive-section .image-cell {
-        margin-bottom: 16px;
+      table.mobil-kep-szoveg td:first-child {
+        margin-bottom: 14px;
+        text-align: center;
       }
 
-      .responsive-section .text-cell {
-        font-size: 16px;
+      table.mobil-kep-szoveg img {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
       }
     }
   </style>
