@@ -4,7 +4,35 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fémipari és forrasztásimunkáim az évek során.</title>
-  <link rel="stylesheet" href="Style.css">
+  <link rel="Stylesheet" href="Style.css">
+<style>
+    @media (max-width: 768px) {
+      table.mobil-kep-szoveg,
+      table.mobil-kep-szoveg tbody,
+      table.mobil-kep-szoveg tr,
+      table.mobil-kep-szoveg td {
+        display: block;
+        width: 100%;
+      }
+
+      table.mobil-kep-szoveg td {
+        padding-left: 0 !important;
+      }
+
+      table.mobil-kep-szoveg td:first-child {
+        margin-bottom: 14px;
+        text-align: center;
+      }
+
+      table.mobil-kep-szoveg img {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -36,7 +64,7 @@
 <div class="about-title">
     <h1>Fémipari és forrasztás</h1>
   </div>
-<table style="margin-top:40px;">
+<table class="mobil-kep-szoveg" style="margin-top:40px;">
   <tr>
     <td>
       <img src="femipari.jpg" width="300" style="border-radius: 16px;">
@@ -56,7 +84,7 @@
   </tr>
 </table>
 <hr width="100%" color="black" style="margin-top:40px;">
-<table style="margin-top:40px;">
+<table class="mobil-kep-szoveg" style="margin-top:40px;">
   <tr>
     <td>
       <img src="forrasztas.jpg" width="300" style="border-radius: 16px;">
